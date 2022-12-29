@@ -3,9 +3,9 @@ import {
   IconBrandTwitter,
   IconBrandYoutube,
   IconBrandInstagram,
+  Icon24Hours,
 } from '@tabler/icons';
 import { useFooterStyles } from './useFooterStyles';
-import { MantineLogo } from '@mantine/ds';
 
 interface FooterProps {
   data: {
@@ -42,7 +42,7 @@ export function Footer({ data }: FooterProps) {
     <footer className={classes.footer}>
       <Container className={classes.inner}>
         <div className={classes.logo}>
-          <MantineLogo size={30} />
+          <Icon24Hours size={30} color='#fff' />
           <Text size='xs' color='dimmed' className={classes.description}>
             Build fully functional accessible web applications faster than ever
           </Text>
