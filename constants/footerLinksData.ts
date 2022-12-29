@@ -57,7 +57,7 @@ export const links = [
         link: '#',
       },
       {
-        label: 'GitHub discussions',
+        label: 'Follow on Instagram',
         link: '#',
       },
     ],
